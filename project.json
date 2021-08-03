@@ -1,0 +1,48 @@
+{
+  "name": "Get AD User Details",
+  "description": "This activity returns the AD active directory user details like user name, user domain, and user email.",
+  "main": "Get Email.xaml",
+  "dependencies": {
+    "UiPath.ActiveDirectoryDomainServices.Activities": "1.2.0",
+    "UiPath.System.Activities": "21.4.1",
+    "UiPath.UIAutomation.Activities": "21.4.4"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.4.4.0",
+  "projectVersion": "1.0.2",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {
+    "iconUrl": ".package/index.png"
+  },
+  "targetFramework": "Legacy"
+}
